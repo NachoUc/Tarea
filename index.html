@@ -1,0 +1,26 @@
+<!-- Juan Ignacio Uceda González - 17/10/2024 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ejercicio-3.1">
+    <meta name="keywords" content="Ejercicio-3.1">
+    <meta name="author" content="Juan Ignacio">
+    <meta name="robots" content="index, follow">
+    <title>Práctica bloque 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function funcion_apellido1(){
+            var name = document.getElementById("name").value;
+            var ape = document.getElementById("ape").value;
+            alert ('Bienvenido ' + name + " " + ape)
+        }
+    </script>
+</head>
+<body>
+    <h1>Practica bloque 3</h1>
+    Introduce tu nombre:
+    <input type="text" id="name" onblur="funcion_nom()">
+      Introduce tu apellido1: <input type="text" id="ape" onblur="funcion_apellido1()">
+</body>
+</html>
